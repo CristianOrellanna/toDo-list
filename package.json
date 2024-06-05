@@ -1,0 +1,27 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "app de to do list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianOrellanna/toDo-list.git"
+  },
+  "author": "Cristian Orellana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianOrellanna/toDo-list/issues"
+  },
+  "homepage": "https://github.com/CristianOrellanna/toDo-list#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0"
+  }
+}
