@@ -1,77 +1,77 @@
-# Aplicación Web de Lista de Tareas
+# Task List Web Application
 
-Una aplicación web simple para gestionar tareas.
+A simple web application to manage tasks.
 
-## Introducción
+## Introduction
 
-Este proyecto es una aplicación web de lista de tareas diseñada para ayudar a los usuarios a organizar y gestionar sus tareas de manera eficiente. Proporciona una interfaz amigable para crear, actualizar y eliminar tareas, así como marcar tareas como completadas.
+This project is a to-do list web application designed to help users organize and manage their tasks efficiently. Provides a friendly interface for creating, updating and deleting tasks, as well as marking tasks as completed.
 
-## Características
+## Characteristics
 
-- Autenticación de usuario: Permite a los usuarios registrarse, iniciar sesión y cerrar sesión de manera segura.
-- Gestión de tareas: Los usuarios pueden crear nuevas tareas, actualizar tareas existentes, marcar tareas como completadas y eliminar tareas.
-- Diseño adaptable: La aplicación está diseñada para funcionar sin problemas en dispositivos de todos los tamaños, incluidos ordenadores de sobremesa, tabletas y teléfonos inteligentes.
-- Persistencia de datos: Las tareas se almacenan en una base de datos, garantizando que los datos del usuario se conserven incluso después de que el usuario cierre la sesión o cierre el navegador.
+- User Authentication: Allows users to register, log in and log out securely.
+- Task Management: Users can create new tasks, update existing tasks, mark tasks as completed, and delete tasks.
+- Responsive Design: The app is designed to run smoothly on devices of all sizes, including desktops, tablets, and smartphones.
+- Data persistence: Tasks are stored in a database, ensuring that user data is preserved even after the user logs out or closes the browser.
 
-## Tecnologías Utilizadas
+## Used technology
 
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
 - **Backend**: Node.js, Express.js
-- **Base de Datos**: MySQL
-- **Gestión de Sesiones**: cookie-session
-- **Cifrado de Contraseñas**: bcrypt.js
+- **Database**: MySQL
+- **Session Management**: cookie-session
+- **Password Encryption**: bcrypt.js
 
-## Instalación
+## Facility
 
-1. Clonar el repositorio:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/CristianOrellanna/toDo-list.git
 ```
 
-2. Navegar al directorio del proyecto:
+2. Navigate to the project directory:
 
 ```bash
 cd toDo-list
 ```
 
-3. Instalar las dependencias:
+3. Install the dependencies:
 
 ```bash
 npm install
 ```
 
-4. Configurar la base de datos MySQL:
+4. Configure MySQL database:
 
-- Crear una base de datos MySQL llamada `todo_list`.
-- Importar el esquema de la base de datos desde `db/database.sql`.
+- Create a MySQL database called `todo_list`.
+- Import the database schema from `db/database.sql`.
 
 
-5. Iniciar la aplicación:
+5. Start the application:
 
 ```bash
 npm start
 ```
 
-6. Acceder a la aplicación en tu navegador web en
+6. Access the application in your web browser at
 
-```bash 
+```bash
 http://localhost:3000
 ```
 
-## Uso
+## Use
 
-1. Registrarse para una cuenta nueva o iniciar sesión con una cuenta existente.
-2. Una vez iniciada la sesión, serás redirigido a la página de inicio donde podrás ver, crear, actualizar y eliminar tareas.
-3. Para crear una nueva tarea, haz clic en el botón "Agregar Tarea" y completa los detalles de la tarea.
-4. Para actualizar o eliminar una tarea existente, haz clic en los botones respectivos junto a la tarea.
-5. También puedes marcar tareas como completadas marcando la casilla junto a la tarea.
+1. Register for a new account or log in with an existing account.
+2. Once logged in, you will be redirected to the home page where you can view, create, update and delete tasks.
+3. To create a new task, click the “Add Task” button and fill in the task details.
+4. To update or delete an existing task, click the respective buttons next to the task.
+5. You can also mark tasks as completed by checking the box next to the task.
 
-## Contribución
+## Contribution
 
-¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias para mejoras, por favor abre un issue o envía un pull request.
+Contributions are welcome! If you encounter any problems or have suggestions for improvements, please open an issue or submit a pull request.
 
-## Contacto
+## Contact
 
-Para cualquier consulta o comentario, por favor contacta a [Cristian Orellana](https://github.com/CristianOrellanna).
+For any questions or comments, please contact [Cristian Orellana](https://github.com/CristianOrellanna).
 
