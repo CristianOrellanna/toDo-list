@@ -58,6 +58,29 @@ npm start
 ```bash
 http://localhost:3000
 ```
+## Installation of Dev dependencies(Testing)
+
+Jest: as a testing framework,</br>
+Supertest: as a module that will allow making requests to the backend,</br>
+*(-D means it is a development dependency):
+```bash
+  npm i -D jest supertest
+```
+    
+## Running Tests
+
+First, define the test command in the package.json
+
+```bash
+"scripts": {
+    "test": "jest"
+  },
+```
+
+To run tests, run the following command
+```bash
+  npm run test
+```
 
 ## Use
 
