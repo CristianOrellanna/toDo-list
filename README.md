@@ -58,6 +58,30 @@ npm start
 ```bash
 http://localhost:3000
 ```
+
+7. Configuration nodemon
+
+Install: 
+```bash
+npm install nodemon
+```
+
+Settings in case it doesn't work on windows:  
+```bash
+Get-ExecutionPolicy -List
+```
+```bash
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+```bash
+Get-ExecutionPolicy -Scope CurrentUser
+```
+
+Execute nodemon with start script:
+```bash
+nodemon --exec npm start
+```
+
 ## Installation of Dev dependencies(Testing)
 
 Jest: as a testing framework,</br>
