@@ -1,11 +1,11 @@
 {
   "name": "todo-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "app de to do list",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,13 @@
     "bcryptjs": "^2.4.3",
     "cookie-session": "^2.1.0",
     "ejs": "^3.1.10",
-    "express": "^4.19.2",
-    "mysql2": "^3.10.0"
+    "express": "^4.21.1",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.7",
+    "sweetalert2": "^11.6.13"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
